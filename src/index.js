@@ -8,7 +8,7 @@ const app = require('./app.js')
 const mongoose = require('mongoose')
 mongoose.set('strictQuery', true);
 
-//Declare a specific listening port number
+//Declare a specific listening port num
 const PORT = process.env.PORT || 3000;
 
 // Wide listing a cors to accept a specific domain route
