@@ -13,7 +13,7 @@ const data = [
       "name": "Lucifer",
       "subscribedChannel": "Sentex"
     }
-  ]
+  ] 
 
   //Export data
 module.exports = data;

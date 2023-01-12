@@ -7,7 +7,7 @@ const subscriberModel = require('./models/subscribers');
 
 //enable express usage
 const app = express();
-
+ 
 //It parses incoming JSON requests and puts the parsed data in request.body
 app.use(express.json());
 

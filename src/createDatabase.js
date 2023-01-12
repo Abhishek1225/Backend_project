@@ -24,7 +24,7 @@ db.once('open', () => console.log('Database created...'))
 
 //Refresh all hosts.
 //Equivalent to refreshUntilMatches with a criteria that never matches.
-//This is intended to be called periodically, possibly from a background thread.
+//This is intended to be called periodically,possibly from a background thread.
 const refreshAll = async () => {
     await subscriberModel.deleteMany({})
     // console.log(connection)

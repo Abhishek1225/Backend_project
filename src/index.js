@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 
 // Wide listing a cors to accept a specific domain route
 const cors = require('cors');
-
+  
 // Parse JSON bodies (as sent by API clients)
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
